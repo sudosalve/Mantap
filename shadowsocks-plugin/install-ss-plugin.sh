@@ -17,11 +17,11 @@ mkdir -p /usr/local/bin/
 mkdir -p /etc/shadowsocks
 rm -rf /usr/bin/shadowhost
 cd /usr/bin
-wget -O addss-p "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/addss-p.sh"
+wget -O addss-p "https://raw.githubusercontent.com/sudosalve/Mantap/main/shadowsocks-plugin/addss-p.sh"
 chmod +x addss-p
-#wget -O shadowhost "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks-plugin/shadowhost.sh"
+#wget -O shadowhost "https://raw.githubusercontent.com/sudosalve/Mantap/main/shadowsocks-plugin/shadowhost.sh"
 #chmod +x shadowhost && shadowhost
-wget -O delss "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/shadowsocks/delss.sh"
+wget -O delss "https://raw.githubusercontent.com/sudosalve/Mantap/main/shadowsocks/delss.sh"
 cd
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
@@ -89,10 +89,10 @@ chmod +x xray-plugin
 
 # // download
 cd /home/vps/public_html/
-wget -O gost-plugin-arm.zip "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin-arm.zip"
-wget -O gost-plugin-x86.zip "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin-x86.zip"
-wget -O v2ray-plugin-universal.apk "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/v2ray-plugin-universal-v4.44.0.apk"
-wget -O xray-plugin-universal.apk "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/xray-plugin-universal-v1.5.4.apk"
+wget -O gost-plugin-arm.zip "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/gost-plugin-arm.zip"
+wget -O gost-plugin-x86.zip "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/gost-plugin-x86.zip"
+wget -O v2ray-plugin-universal.apk "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/v2ray-plugin-universal-v4.44.0.apk"
+wget -O xray-plugin-universal.apk "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/xray-plugin-universal-v1.5.4.apk"
 
 sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 # // Certificate File
