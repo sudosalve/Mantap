@@ -1,10 +1,10 @@
 #!/bin/bash
 if [ "${EUID}" -ne 0 ]; then
-		echo "You need to run this script as root"
+		echo "Você precisa executar este script como root"
 		exit 1
 fi
 if [ "$(systemd-detect-virt)" == "openvz" ]; then
-		echo "OpenVZ is not supported"
+		echo "OpenVZ não é suportado"
 		exit 1
 fi
 # ==========================================
@@ -47,7 +47,7 @@ IZIN=$(wget -qO- ipinfo.io/ip);
 rm -f setup.sh
 clear
 if [ -f "/etc/xray/domain" ]; then
-echo "Script Already Installed"
+echo "Script já instalado"
 exit 0
 fi
 mkdir /var/lib/crot;
@@ -117,7 +117,7 @@ chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
 echo " "
-echo "Installation has been completed!!"echo " "
+echo "A instalação foi concluída!!"echo " "
 echo "============================================================================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
@@ -154,21 +154,21 @@ echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
 echo "   - TrojanGo                : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
+echo "   >>> Informações do servidor e outros recursos"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
-echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
+echo "   - Reinicialização automática             : [ON]"  | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
-echo "   - Autoreboot On 05.00 GMT +7" | tee -a log-install.txt
-echo "   - Autobackup Data" | tee -a log-install.txt
-echo "   - Restore Data" | tee -a log-install.txt
-echo "   - Auto Delete Expired Account" | tee -a log-install.txt
-echo "   - Full Orders For Various Services" | tee -a log-install.txt
-echo "   - White Label" | tee -a log-install.txt
-echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
-echo " Reboot 15 Sec"
+echo "   - Reinicialização automática On 05.00 GMT +7" | tee -a log-install.txt
+echo "   - Dados de backup automático" | tee -a log-install.txt
+echo "   - Restaurar dados" | tee -a log-install.txt
+echo "   - Excluir conta expirada automaticamente" | tee -a log-install.txt
+echo "   - Pedidos completos para vários serviços" | tee -a log-install.txt
+echo "   - Etiqueta branca" | tee -a log-install.txt
+echo "   - Registro de instalação --> /root/log-install.txt"  | tee -a log-install.txt
+echo " Reinicialize em 15 segundos"
 sleep 15
 rm -f setup.sh
 reboot
