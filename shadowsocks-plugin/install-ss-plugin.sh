@@ -59,9 +59,9 @@ rm -rf xray-plugin
 rm -rf v2xray-plugin
 rm -rf gost-plugin
 cd /usr/bin/
-wget -O gost-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/gost-plugin"
-wget -O v2ray-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/v2ray-plugin"
-wget -O xray-plugin "https://raw.githubusercontent.com/fisabiliyusri/Shadowsocks-Plugin/main/xray-plugin"
+wget -O gost-plugin "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/gost-plugin"
+wget -O v2ray-plugin "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/v2ray-plugin"
+wget -O xray-plugin "https://raw.githubusercontent.com/sudosalve/Shadowsocks-Plugin/main/xray-plugin"
 chmod +x gost-plugin
 chmod +x v2ray-plugin
 chmod +x xray-plugin
