@@ -194,7 +194,7 @@ systemctl restart sl-vless-grpc
 cd /usr/bin
 
 
-wget -O sl-addgrpc "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/sl-addgrpc.sh"
+wget -O sl-addgrpc "https://raw.githubusercontent.com/sudosalve/Mantap/main/grpc/sl-addgrpc.sh"
 chmod +x sl-addgrpc
 chmod +x sl-delgrpc
 chmod +x sl-renewgrpc
