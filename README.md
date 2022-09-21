@@ -46,10 +46,6 @@ atau
 su
 ```
 
-### Link Video Tutorial Cara Install
-```html
-https://www.facebook.com/100031931503057/posts/628374871570224/?app=fbl
-```
 
 ## INFO TAMBAHAN , SILAHKAN DI BACA 
 * MINIMAL RAM 1 GB UNTUK MENGGUNAKAN SCRIPT INI
@@ -96,7 +92,7 @@ cd
 
   <img src="https://img.shields.io/badge/Install_Semua_Layanan_VPN%20-green">
 
-* Install Semua Layanan VPN /Install All VPN Service
+* Instalar todos os serviços VPN
    
 ```html
 rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
