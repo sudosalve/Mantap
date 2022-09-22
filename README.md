@@ -29,7 +29,6 @@ ou
 su
 ```
 
-
 # Apenas para SO
 * • Debian 10 & 9
 ou
@@ -74,8 +73,7 @@ cd
 ```html
 rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
   
-```
-  
+```  
 
 ### 5 CONCLUÍDO / CONCLUÍDO
 <img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
@@ -109,8 +107,6 @@ slhost && certv2ray
 restart
 ```
 *
-*
-*
 
 ### 7 CORRIGIR ERRO SSLH WS
 # Erro de correção automática SSLH + WS-TLS 443
@@ -132,9 +128,6 @@ reboot
 ### 8 Info Websocket
 * O Websocket deve usar um subdomínio/domínio e ter sido apontado para cloudflare (CDN CLOUDFLARE)
 * Sem subdomínio/domínio é impossível se conectar com bugs originados da cloudflare
-*
-*
-*
 
 ### 9 Editar WS da porta SSL ou substituir a porta SSL (manual)
 * altere a porta que deseja alterar, se for 443, altere o texto que é 443
