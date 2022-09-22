@@ -20,11 +20,11 @@ Crie um novo VPS ou novo VPS e deve usar o usuário: root
 ```html
 sudo su
 ```
-Atau
+ou
 ```html
 sudo -i
 ```
-atau
+ou
 ```html
 su
 ```
