@@ -131,33 +131,33 @@ restart
 *
 *
 
-### 6. FIX ERROR SSLH WS
-# Auto Fix Error SSLH + WS-TLS 443
-* 1 • Jika terjadi error di SSLH dan SSH WS-TLS nya,gunakan script ini untuk memperbaiki nya
+### 6. CORRIGIR ERRO SSLH WS
+# Erro de correção automática SSLH + WS-TLS 443
+* 1 • Se ocorrer um erro no SSLH e SSH WS-TLS, use este script para corrigi-lo
 ```html
 menu
  ```
 
-* 2 • di menu lalu pilih 17 (SL-FIX Menu)
+* 2 • no menu, selecione 17 (Menu SL-FIX)
 ```html
 17
  ```
 
-* 3 • jika sudah selesai lalu reboot/ hidupkan ulang vps nya
+* 3 • se terminar, reinicie / reinicie o vps
 ```html
 reboot
  ```
 
 ### 7. Info Websocket
-* Websocket harus menggunakan subdomain/domain dan sudah di pointing di cloudflare (CDN CLOUDFLARE)
-* Tanpa subdomain/domain mustahil bisa terhubung dengan bug yang berasal dari cloudflare
+* O Websocket deve usar um subdomínio/domínio e ter sido apontado para cloudflare (CDN CLOUDFLARE)
+* Sem subdomínio/domínio é impossível se conectar com bugs originados da cloudflare
 *
 *
 *
 
-### 8. Edit Port SSL WS atau Ganti Port SSL(Manual)
-* ubah port yg mau di ubah ,jika 443 silahkan ubah tulisan yang ada 443
-* setelah di edit lalu di simpan (CTRL+X+Y dan enter)
+### 8. Editar WS da porta SSL ou substituir a porta SSL (manual)
+* altere a porta que deseja alterar, se for 443, altere o texto que é 443
+* após a edição, salve (CTRL + X + Y e digite)
 
 ```html
 nano /etc/systemd/system/ws-tls.service
@@ -367,18 +367,3 @@ reboot
 • Auto Fix
 
 • Auto Update
-
-<p align="center">
-<img height=21 src="https://komarev.com/ghpvc/?username=fisabiliyusri">
-</p>
-<div height='45' align="center">
-<h2>Contact me: <br>
-<a href="https://github.com/fisabiliyusri"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height='50'> </a>
-<a href="https://facebook.com/sulaiman.xl"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" height='50'> </a>
-<a href="https://trakteer.id/sulaiman-l/tip"> <img src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height='50'> </a>
-</h2>
-</div>
-<h2 align="center">
-<img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=fisabiliyusri&layout=compact&theme=dark">
-<img height=150 src="https://github-readme-stats.vercel.app/api?username=fisabiliyusri&count_private=true&show_icons=true&theme=dark">
-<h2 align="center">
