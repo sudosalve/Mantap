@@ -11,23 +11,23 @@ echo -e "\033[0;36m#  ''|||. ||.|  '|.||  ||  | ||    ||| '|. |  ''|||.#\033[m"
 echo -e "\033[0;36m#.     '||||||   || ||| |||  ||    |||   |||.     '|#\033[m"
 echo -e "\033[0;36m#|'....|'.||.'|..|'  |   |  .||...|'.|.   '||'....|'#\033[m"
 echo -e "\033[0;36m#---------------------------------------------------#\033[m"
-echo -e "\033[0;36m#\033[m \033[0;31mSlowDNS | SANTAI\033[m \033[0;36m#\033[m"
+echo -e "\033[0;36m#\033[m \033[0;31mSlowDNS\033[m \033[0;36m#\033[m"
 echo -e "\033[0;36m#===================================================#\033[m"
     echo ""
-    echo -e "\033[0;36m[01]\033[m | Install SlowDNS SSH"
-    echo -e "\033[0;36m[02]\033[m | Install SlowDNS SSL"
-    echo -e "\033[0;36m[03]\033[m | Install SlowDNS DROP"
-    echo -e "\033[0;36m[04]\033[m | Install SlowDNS SOCKS"
-    echo -e "\033[0;36m[05]\033[m | lihat informasi"
-    echo -e "\033[0;36m[06]\033[m | Mulai SlowDNS"
-    echo -e "\033[0;36m[07]\033[m | Mulai ulang SlowDNS"
-    echo -e "\033[0;36m[08]\033[m | hentikan SlowDNS"
-    echo -e "\033[0;36m[09]\033[m | Hapus SlowDNS"
-    echo -e "\033[0;36m[10]\033[m | Perbarui/Instal Ulang"
-    echo -e "\033[0;36m[11]\033[m | Hapus Script"
-    echo -e "\033[0;36m[00]\033[m | KELUAR"
+    echo -e "\033[0;36m[01]\033[m | instalar SlowDNS SSH"
+    echo -e "\033[0;36m[02]\033[m | instalar SlowDNS SSL"
+    echo -e "\033[0;36m[03]\033[m | instalar SlowDNS DROP"
+    echo -e "\033[0;36m[04]\033[m | instalar SlowDNS SOCKS"
+    echo -e "\033[0;36m[05]\033[m | Ver informações"
+    echo -e "\033[0;36m[06]\033[m | Iniciar SlowDNS"
+    echo -e "\033[0;36m[07]\033[m | Reiniciar SlowDNS"
+    echo -e "\033[0;36m[08]\033[m | Parar SlowDNS"
+    echo -e "\033[0;36m[09]\033[m | Excluir SlowDNS"
+    echo -e "\033[0;36m[10]\033[m | Atualizar/Reinstalar"
+    echo -e "\033[0;36m[11]\033[m | Excluir Script"
+    echo -e "\033[0;36m[00]\033[m | Sair"
     echo ""
-    echo -ne "\033[0;36mO apa yang ingin kamu lakukan?:\0033[m " && read opcao
+    echo -ne "\033[0;36m Oque você quer fazer?:\0033[m " && read opcao
     case $opcao in
     1) Opcao1 ;;
     2) Opcao2 ;;
@@ -41,7 +41,7 @@ echo -e "\033[0;36m#===================================================#\033[m"
     10) Opcao10 ;;
     11) Opcao11 ;;
     0) Sair ;;
-    *) "Calma Barboleta" ; echo ; slowdns ;;
+    *) "Vai com calma" ; echo ; slowdns ;;
     esac
     }
 
