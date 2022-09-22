@@ -5,12 +5,6 @@
 
 ![fisabiliyusri's card name](https://cardivo.vercel.app/api?name=SULAIMAN%20L&description=Hi,%20everyone!%20and%20Nice%20to%20meet%20you%20%F0%9F%91%8B&image=https://raw.githubusercontent.com/fisabiliyusri/.github/main/kurumiwangy3.jpg?v=4&backgroundColor=%23ecf0f1&twitter=/&github=fisabiliyusri&pattern=leaf&colorPattern=%23eaeaea)
 
-
-<h2 align="center">
-
-Auto Script Instalar todos os serviços VPN
-<img src="https://img.shields.io/badge/Version-1.0.0-blue.svg"></h2>
-
 </p> 
 <h2 align="center"> Distribuição Linux Suportada</h2>
 <p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"></p> 
