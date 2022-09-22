@@ -17,13 +17,11 @@ Mod By SL
 <p align="center"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%209&message=Stretch&color=purple"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=debian&label=Debian%2010&message=Buster&color=purple">  <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2018&message=Lts&color=red"> <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=Ubuntu%2020&message=Lts&color=red">
 </p>
 
-### Info:
-* HARAP DI BACA & UTAMAKAN MEMBACA
 # INI SCRIPT KHUSUS UNTUK MEMBUAT SERVER VPN
-Buat VPS Fresh atau VPS Baru dan Wajib Menggunakan User: root
-* VPS AKUN ROOT
-* Login VPS User menggunakan user root
-* Cara langsung masuk ke akses root
+Crie um novo VPS ou novo VPS e deve usar o usuário: root
+* RAIZ VPS
+* Login de usuário VPS usando usuário root
+* Como entrar diretamente no acesso root
 
 ```html
 sudo su
@@ -38,12 +36,11 @@ su
 ```
 
 
-# Khusus Untuk OS
+# Apenas para SO
 * • Debian 10 & 9
-atau
+ou
 * • Ubuntu 18.04 & 20.04
-* Working For VPS AWS,AZURE,DO
-## Installation 
+## Instalação
 ## 1.
 <img src="https://img.shields.io/badge/Update%20_&_%20Upgrade-green">
 
@@ -54,7 +51,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ## 2.0
 <img src="https://img.shields.io/badge/Login_Root%20VPS-green">
 
-* Login ke VPS dan Aktifkan Root Sementara
+* Faça login no VPS e habilite o modo root
 
   
 ```html
@@ -67,8 +64,8 @@ cd
 
   <img src="https://img.shields.io/badge/Buat_Akses_Root%20VPS-green">
 
-* Buat Akses Root Di VPS /Root VPS
-* Untuk Mengizinkan Root Dan Ubah Password Login di VPS Google Cloud Platform, Aws, Dan Lain-lain
+* Criar acesso raiz no VPS / VPS raiz
+* Para permitir o login de root e alteração de senha no VPS
    
 ```html
   wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/vpsroot.sh && bash vpsroot.sh
@@ -87,36 +84,30 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 ```
   
 
-### 4. DONE / SELESAI
+### 4. CONCLUÍDO / CONCLUÍDO
 <img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
 
-* • jika tidak bisa login di vps ,gunakan port ssh
-* • 22, 2253
-
-### Jangan Lupa Traktir Kopi
-<a href="https://trakteer.id/sulaiman-l/tip" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-6.png" height="40" style="border: 0px; height: 40px;" alt="Trakteer Saya"></a>
-https://trakteer.id/sulaiman-l/tip
 
 ### 5. MENU, INFO ,UPDATE ,FIX
 * untuk menampilkan menu
 ```html
 menu
 ```
-* untuk update menu dan update info
+* para atualizar o menu e atualizar as informações
 ```html
 updatemenu
 ```
-* otomatis untuk memperbaiki error SSLH, WS-TLS
+* automaticamente para corrigir erros SSLH, WS-TLS
 ```html
 sl-fix
 ```
 ```html
 reboot
 ```
-* Perbaiki SSL ERROR
-* otomatis untuk memperbaiki error Sertifikat SSL/TLS dan SUBDOMAIN
-* perbaiki error di bagian acme domain
-* untuk update Sertifikat SSL/TLS
+* Corrigir ERRO SSL
+* automaticamente para corrigir erros de certificado SSL/TLS e SUBDOMAIN
+* corrigir erros na seção de domínio acme
+* para atualizar o certificado SSL/TLS
 ```html
 slhost && certv2ray
 ```
@@ -199,16 +190,15 @@ reboot
 *done
 
 
+# Informações especiais SlowDNS
+• SSH sobre DNS (SlowDNS)
+* pois sua velocidade é limitada
+* velocidade de download 4 Mbps (velocidade máxima)
+* Suporta todas as portas ssh
 
-# INFO Khusus SlowDNS
-• SSH Over DNS (SlowDNS)
-* untuk kecepatan nya di batasi
-* speed download 4 Mbps (Max Speed)
-* Support semua port ssh
+### Recursos de script
 
-### Fitur Script
-
-• CEK SEMUA IP DAN PORT (Service ALL VPN)
+• VERIFIQUE TODOS OS IP E PORTAS (Serviço ALL VPN)
 
 • SSH & OpenVPN
 
@@ -264,13 +254,13 @@ reboot
 
 • Auto Update
 
-### Os Supported
+### Sistemas suportados
 
-• Debian 10 & 9
+• Debian 10 e 9
 
-• Ubuntu 18.04 & 20.04
+• Ubuntu 18.04 e 20.04
 
-# Service & Port
+# Porta de serviço
 
 • SlowDNS                   : All Port SSH
 
@@ -333,7 +323,7 @@ reboot
 • CloudFront Over Websocket : [OFF]
 
 
- ### Server Information & Other Features
+### Informações do servidor e outros recursos
 
 • Timezone                : Asia/Jakarta (GMT +7)
 
