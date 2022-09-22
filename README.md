@@ -160,11 +160,11 @@ nano /etc/default/sslh
 nano /etc/stunnel5/stunnel5.conf
  ```
 
-### 100 (Fix manual) Fix Error SSLH
+### 100 (Correção manual) Corrigir erro SSLH
 
-* Perbaiki sslh yang error di vps yang tidak support sslh
-* khusus yang vps nya tidak support sslh
-* matikan ws-tls
+* Corrige erros sslh em vps que não suportam sslh
+* especialmente aqueles cujos vps não suportam SSL
+* desligar ws-tls
 ```html
 systemctl stop ws-tls
 ```
