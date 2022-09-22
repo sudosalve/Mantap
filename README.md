@@ -35,14 +35,14 @@ su
 ou
 * • Ubuntu 18.04 & 20.04
 ## Instalação
-## 1.
+## 1
 <img src="https://img.shields.io/badge/Update%20_&_%20Upgrade-green">
 
   ```html
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```
   
-## 2.0
+## 2
 <img src="https://img.shields.io/badge/Login_Root%20VPS-green">
 
 * Faça login no VPS e habilite o modo root
@@ -54,8 +54,7 @@ cd
 cd
 ```
 
-## 2.
-
+## 3
   <img src="https://img.shields.io/badge/Buat_Akses_Root%20VPS-green">
 
 * Criar acesso raiz no VPS / VPS raiz
@@ -66,7 +65,7 @@ cd
   
 ```
   
-### 3.
+### 4
 
   <img src="https://img.shields.io/badge/Install_Semua_Layanan_VPN%20-green">
 
@@ -78,11 +77,11 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 ```
   
 
-### 4. CONCLUÍDO / CONCLUÍDO
+### 5 CONCLUÍDO / CONCLUÍDO
 <img src="https://img.shields.io/badge/DONE%20_/_%20SELESAI-green">
 
 
-### 5. MENU, INFO ,UPDATE ,FIX
+### 6 MENU, INFO ,UPDATE ,FIX
 * untuk menampilkan menu
 ```html
 menu
@@ -113,7 +112,7 @@ restart
 *
 *
 
-### 6. CORRIGIR ERRO SSLH WS
+### 7 CORRIGIR ERRO SSLH WS
 # Erro de correção automática SSLH + WS-TLS 443
 * 1 • Se ocorrer um erro no SSLH e SSH WS-TLS, use este script para corrigi-lo
 ```html
@@ -130,14 +129,14 @@ menu
 reboot
  ```
 
-### 7. Info Websocket
+### 8 Info Websocket
 * O Websocket deve usar um subdomínio/domínio e ter sido apontado para cloudflare (CDN CLOUDFLARE)
 * Sem subdomínio/domínio é impossível se conectar com bugs originados da cloudflare
 *
 *
 *
 
-### 8. Editar WS da porta SSL ou substituir a porta SSL (manual)
+### 9 Editar WS da porta SSL ou substituir a porta SSL (manual)
 * altere a porta que deseja alterar, se for 443, altere o texto que é 443
 * após a edição, salve (CTRL + X + Y e digite)
 
@@ -154,7 +153,7 @@ nano /etc/default/sslh
 nano /etc/stunnel5/stunnel5.conf
  ```
 
-### 100 (Correção manual) Corrigir erro SSLH
+### 10 (Correção manual) Corrigir erro SSLH
 
 * Corrige erros sslh em vps que não suportam sslh
 * especialmente aqueles cujos vps não suportam SSL
