@@ -24,9 +24,9 @@ su
 ```
 
 # SUPORTE PARA
-* • Debian 10 & 9
+* Debian 10 & 9
 ou
-* • Ubuntu 18.04 & 20.04
+* Ubuntu 18.04 & 20.04
 ## Instalação
 ## 1
 <img src="https://img.shields.io/badge/Update%20_&_%20Upgrade-green">
